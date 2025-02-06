@@ -1,0 +1,16 @@
+{
+  "input_dir": "./input",
+  "input_encoding": "UTF-8",
+  "output_encoding": "auto",
+  "output_dir": "./output",
+  "output_filename": "output.csv",
+  "max_rows_per_file": 0,
+  "output_quotechar":"\"",
+  "output_quotemode":"all",
+  "output_columns": [],
+  "add_columns": {
+  },
+  "filter_conditions": [
+  ],
+  "debug": false
+}

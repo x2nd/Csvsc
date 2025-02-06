@@ -1,0 +1,46 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+wheels/
+*.egg-info/
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller
+**/__pyinstaller_temp__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+debug.log
+
+# Executable files
+*.exe
+
+# VS Code
+.vscode/
+
+# カスタム条件用関数定義
+fn/*
+!fn/sample_functions.py
+
+# Other
+*.swp
+*.csv
+*~
+\#*
