@@ -65,7 +65,8 @@ class ExpressionEvaluator:
         def replace_str(match):
             column_name = match.group(1).lower()
             if column_name in self.variables:
-                return f"'{self.variables[column_name].replace('\'','\\\'')}'"
+                value = str(self.variables[column_name])
+                return f"'{value.replace('\'','\\\'')}'"
             else:
                 return f"''"
                 
